@@ -1,0 +1,130 @@
+<!DOCTYPE html><html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Masakan - Resep Mie Ayam</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #fafafa;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+    }
+    header {
+      background: #d62828;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav {
+      background: #f77f00;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 10px;
+      color: #fff;
+      text-decoration: none;
+    }
+    .container {
+      display: flex;
+      margin: 20px;
+    }
+    .content {
+      flex: 3;
+      margin-right: 20px;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+    }
+    .sidebar {
+      flex: 1;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.1);
+      height: fit-content;
+    }
+    img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    h2 {
+      color: #d62828;
+    }
+    footer {
+      text-align: center;
+      background: #333;
+      color: #fff;
+      padding: 10px;
+      margin-top: 20px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Blog Masakan Rumahan</h1>
+    <p>Resep enak dan mudah dibuat</p>
+  </header>  <nav>
+    <a href="#">Beranda</a>
+    <a href="#">Resep</a>
+    <a href="#">Tentang</a>
+    <a href="#">Kontak</a>
+  </nav>  <div class="container">
+    <div class="content">
+      <h2>Resep Mie Ayam</h2>
+      <img src="mie-ayam.jpg" alt="Mie Ayam">
+      <h3>Bahan-bahan:</h3>
+      <ul>
+        <li>500 gr mie basah</li>
+        <li>200 gr daging ayam, potong kecil</li>
+        <li>2 siung bawang putih, cincang</li>
+        <li>2 sdm kecap manis</li>
+        <li>1 sdm saus tiram</li>
+        <li>1 sdt garam</li>
+        <li>1/2 sdt merica</li>
+        <li>Sayur sawi secukupnya</li>
+        <li>Kaldu ayam secukupnya</li>
+        <li>Minyak ayam (gorengan kulit ayam) secukupnya</li>
+      </ul><h3>Cara Memasak:</h3>
+  <ol>
+    <li>Tumis bawang putih hingga harum, masukkan ayam lalu aduk sampai berubah warna.</li>
+    <li>Tambahkan kecap manis, saus tiram, garam, dan merica. Aduk rata dan masak sampai matang.</li>
+    <li>Rebus mie, tiriskan lalu beri minyak ayam.</li>
+    <li>Rebus sawi sebentar lalu tiriskan.</li>
+    <li>Sajikan mie dalam mangkuk, beri ayam, sawi, dan siram dengan kaldu panas.</li>
+    <li>Tambahkan kerupuk pangsit dan sambal sesuai selera.</li>
+  </ol>
+</div>
+
+<aside class="sidebar">
+  <h3>Tentang Blog</h3>
+  <p>Blog ini berisi kumpulan resep masakan sederhana yang bisa kamu coba di rumah.</p>
+  <h3>Resep Populer</h3>
+  <ul>
+    <li>Soto Ayam</li>
+    <li>Nasi Goreng</li>
+    <li>Bakso Kuah</li>
+  </ul>
+</aside>
+
+  </div>  <footer>
+    <p>&copy; 2025 Blog Masakan Rumahan</p>
+  </footer>  <script>
+    // Contoh interaksi JS sederhana
+    document.querySelectorAll('nav a').forEach(link => {
+      link.addEventListener('click', (e) => {
+        e.preventDefault();
+        alert('Menu ' + e.target.textContent + ' belum tersedia.');
+      });
+    });
+  </script></body>
+</html>
